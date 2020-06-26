@@ -8,23 +8,24 @@ public class Task123 {
 		int number2=0;
 		int dif=0;
 		
-		System.out.print("Введите первое число: ");   
+		System.out.print("Г‚ГўГҐГ¤ГЁГІГҐ ГЇГҐГ°ГўГ®ГҐ Г·ГЁГ±Г«Г®: ");   
 		if (sc.hasNextInt()) {    
 			number1 = sc.nextInt();   
 			} 
 		
-		System.out.print("Введите второе число: ");   
+		System.out.print("Г‚ГўГҐГ¤ГЁГІГҐ ГўГІГ®Г°Г®ГҐ Г·ГЁГ±Г«Г®: ");   
 		if (sc.hasNextInt()) {    
 			number2 = sc.nextInt();   
 			}
 		 
 		  dif = number1-number2;   
 		  if(dif == 0) {
-			  System.out.print("Числа "+number1+" и "+number2+" равны"); 
+			  System.out.print("Г—ГЁГ±Г«Г  "+number1+" ГЁ "+number2+" Г°Г ГўГ­Г»"); 
 		  } else if(dif>0) {
-			  System.out.print("Число "+number1+" больше числа "+number2); 
+			  System.out.print("Г—ГЁГ±Г«Г® "+number1+" ГЎГ®Г«ГјГёГҐ Г·ГЁГ±Г«Г  "+number2); 
 		  }else if(dif<0) {
-			  System.out.print("Число "+number1+" меньше числа "+number2); 
+			  System.out.print("Г—ГЁГ±Г«Г® "+number1+" Г¬ГҐГ­ГјГёГҐ Г·ГЁГ±Г«Г  "+number2); 
 		  }
 	}
 }
+// Р—РЅР°С‡РёРјС‹С… Р·Р°РјРµС‡Р°РЅРёР№ РїРѕ Р·Р°РґР°С‡Р°Рј РјРѕРґСѓР»СЏ 2 РЅРµС‚. РўРѕР»СЊРєРѕ СѓСЂРѕРІРЅРё РїР°РєРµС‚РѕРІ (РЅРµ РјРµРЅРµРµ 4), СЃРѕР±Р»СЋРґР°Р№С‚Рµ.
